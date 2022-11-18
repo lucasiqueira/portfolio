@@ -4,63 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Web</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>My Web Portfolio | Lucas Siqueira</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            background-color: #0A0D1F;
-            color: #98B9F2;
-            font-family:'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
-            padding-top: 30px;
-        }
-        .section-title {
-            color: #0A0D1F;
-            background-color: #306BAC;
-            padding: 15px 30px;
-            text-align: center;
-        }
-        .myName {
-            font-family: 'Roboto';
-        }
-        .button {
-            color: #0A0D1F;
-            background-color: #306BAC;
-            padding: 15px 30px;
-            text-align: center;
-            text-decoration:none;
-        }
-        .page-link {
-            margin: 20px 0 0 0;
-        }
-        .description, .location {
-            text-align: center;
-        }
-        .in-progress {
-            font-style: italic;
-        }
-    </style>
 </head>
 <body>
-    <a href="#sobre-mim" class="button">Sobre mim</a>
-    <a href="#pagina" class="button">Páginas que gosto</a>
-    <h1 class="myName">Lucas Vinícius de Siqueira Santos</h1>
-    <img src="images/IMG_2764 (cópia).jpg" alt="Minha foto" id="minha-foto" width="300px">
-    <p class="description">Sou brasileiro, estudante de <strong>Desenvolvimento Web Full-Stack</strong> e <em>engenheiro eletricista</em>. Atualmente estudo na Trybe, com previsão de conclusão formação como desenvolvedor web full stack para novembro de 2023. Trabalho como analista técnico na Minsait e atuo com projetos de instalações elétricas em formato freelance.</p>
-    <p class = "location"><strong>Goiânia - GO</strong></p>
-    <h2 class="section-title">Lista de Habilidades</h2>
+    
+    <div class="header">
+        <a href="#about-me" class="button">About Me</a>
+        <a href="#pages" class="button">My Favorite Pages</a>
+    </div>
+    <div class="personal-informations">
+        <div class="personal-block">
+            <img src="images/IMG_2764 (cópia).jpg" alt="My Photo" class="my-photo" width="300px">
+        </div>
+        <div class="personal-block">
+            <div class="personal-text">
+                <h1 class="myName">Lucas Vinícius de Siqueira Santos</h1>
+                <p>I'm 28, brazilian, father, <em>Web Development</em> student, graduated electrical engineer.</p>
+                <p>I'm in the Web Full-Stack Development Program at Trybe.</p>
+            </div>
+        </div>    
+        <p class = "location">Goiânia - GO</p>
+    </div>
+    <div class="section-title">
+        <h2>Skills</h2>
+    </div>
     <ul>
-        <li class="html">HTML <em class="in-progress">(em andamento)</em></li>
-        <li class="css">CSS <em class="in-progress">(em andamento)</em></li>
-        <li class="javascript">JavaScript <em class="in-progress">(em andamento)</em></li>
-        <li class="sql">SQL <em class="in-progress">(em andamento)</em></li>
-        <li class="react">React <em class="in-progress">(em andamento)</em></li>
-        <li class="bootstrap">Bootstrap <em class="in-progress">(em andamento)</em></li>
-        <li class="metodo-agil">Metodologias Ágeis <em class="in-progress">(em andamento)</em></li>
+        <li class="html">HTML <em>(in progress)</em></li>
+        <li class="css">CSS <em>(in progress)</em></li>
+        <li class="javascript">JavaScript <em>(in progress)</em></li>
+        <li class="sql">SQL <em>(in progress)</em></li>
+        <li class="react">React <em>(in progress)</em></li>
+        <li class="bootstrap">Bootstrap <em>(in progress)</em></li>
+        <li class="metodo-agil">Metodologias Ágeis <em>(in progress)</em></li>
     </ul>
-    <br><br><br>
-    <a href="https://dev.to/luizcalaca" target="_blank" class="button page-link">Página legal</a>
+    <div class="footer">
+        <a href="https://google.com" target="_blank" class="button">Cool Page</a>
+    </div>
 </body>
 </html>
