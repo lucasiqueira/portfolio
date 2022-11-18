@@ -11,12 +11,24 @@ body {
 }
 
 .button {
-    color: #0A0D1F;
-    background-color: #306BAC;
-    padding: 15px 30px;
+    color:#306BAC;
+    background-color:#0A0D1F;
+    padding: 15px 50px;
     text-align: center;
     text-decoration:none;
     margin: 0px 10px;
+    border-color: #306BAC;
+    border-style:groove;
+    border-width: 2px;
+}
+
+.button:hover {
+    color:#0A0D1F;
+    background-color:#306BAC;
+}
+
+.button:active {
+    color:#98B9F2;
 }
 
 .personal-block {
@@ -58,7 +70,6 @@ body {
 .section-title {
     color: #0A0D1F;
     background-color: #306BAC;
-    width: 50%;
     text-align: center;
 }
 
@@ -68,7 +79,7 @@ body {
 
 li {
     list-style-type: square;
-    margin: 5px;
+    margin: 8px;
 }
 
 .footer {
