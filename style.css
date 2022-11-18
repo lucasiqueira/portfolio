@@ -1,0 +1,31 @@
+body {
+    background-color: #0A0D1F;
+    color: #98B9F2;
+    font-family:'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+}
+.section-title {
+    color: #0A0D1F;
+    background-color: #306BAC;
+    padding: 15px 30px;
+    text-align: center;
+}
+.myName {
+    font-family: 'Roboto';
+}
+.button {
+    color: #0A0D1F;
+    background-color: #306BAC;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration:none;
+}
+.page-link {
+    margin: 20px 0 0 0;
+}
+.description, .location {
+    text-align: center;
+}
+.in-progress {
+    font-style: italic;
+}
