@@ -5,22 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #0A0D1F;
+            color: #98B9F2;
+            font-family:'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 30px;
+        }
+        .section-title {
+            color: #0A0D1F;
+            background-color: #306BAC;
+            padding: 15px 30px;
+            text-align: center;
+        }
+        .myName {
+            font-family: 'Roboto';
+        }
+        .button {
+            color: #0A0D1F;
+            background-color: #306BAC;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration:none;
+        }
+        .page-link {
+            margin: 20px 0 0 0;
+        }
+        .description, .location {
+            text-align: center;
+        }
+        .in-progress {
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-    <a href="#sobre-mim">Sobre mim</a>
-    <a href="#pagina">Páginas que gosto</a>
-    <h1 class="meu-nome">Lucas Vinícius de Siqueira Santos</h1>
+    <a href="#sobre-mim" class="button">Sobre mim</a>
+    <a href="#pagina" class="button">Páginas que gosto</a>
+    <h1 class="myName">Lucas Vinícius de Siqueira Santos</h1>
     <img src="images/IMG_2764 (cópia).jpg" alt="Minha foto" id="minha-foto" width="300px">
-    <p>Sou brasileiro, estudante de <strong>Desenvolvimento Web Full-Stack</strong> e <em>engenheiro eletricista</em>. Atualmente estudo na Trybe, com previsão de conclusão formação como desenvolvedor web full stack para novembro de 2023. Trabalho como analista técnico na Minsait e atuo com projetos de instalações elétricas em formato freelance.</p>
-    <p><strong>Goiânia - GO</strong></p>
-    <h2>Lista de Habilidades</h2>
+    <p class="description">Sou brasileiro, estudante de <strong>Desenvolvimento Web Full-Stack</strong> e <em>engenheiro eletricista</em>. Atualmente estudo na Trybe, com previsão de conclusão formação como desenvolvedor web full stack para novembro de 2023. Trabalho como analista técnico na Minsait e atuo com projetos de instalações elétricas em formato freelance.</p>
+    <p class = "location"><strong>Goiânia - GO</strong></p>
+    <h2 class="section-title">Lista de Habilidades</h2>
     <ul>
-        <li class="javascript">JavaScript (em andamento)</li>
-        <li class="sql">SQL (em andamento)</li>
-        <li class="react">React (em andamento)</li>
-        <li class="bootstrap">Bootstrap (em andamento)</li>
-        <li class="metodo-agil">Metodologias Ágeis (em andamento)</li>
+        <li class="html">HTML <em class="in-progress">(em andamento)</em></li>
+        <li class="css">CSS <em class="in-progress">(em andamento)</em></li>
+        <li class="javascript">JavaScript <em class="in-progress">(em andamento)</em></li>
+        <li class="sql">SQL <em class="in-progress">(em andamento)</em></li>
+        <li class="react">React <em class="in-progress">(em andamento)</em></li>
+        <li class="bootstrap">Bootstrap <em class="in-progress">(em andamento)</em></li>
+        <li class="metodo-agil">Metodologias Ágeis <em class="in-progress">(em andamento)</em></li>
     </ul>
-    <a href="https://dev.to/luizcalaca" target="_blank">Página legal</a>
+    <br><br><br>
+    <a href="https://dev.to/luizcalaca" target="_blank" class="button page-link">Página legal</a>
 </body>
 </html>
