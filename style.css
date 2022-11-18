@@ -5,16 +5,9 @@ body {
     padding-top: 30px;
 }
 
-.section-title {
-    color: #0A0D1F;
-    background-color: #306BAC;
-    padding: 15px 30px;
+.header {
+    margin-bottom: 30px;
     text-align: center;
-}
-
-.myName {
-    font-family: 'Roboto';
-    margin-top: 30px;
 }
 
 .button {
@@ -26,18 +19,14 @@ body {
     margin: 0px 10px;
 }
 
-.description {
-    max-width: 30%;
-    vertical-align: middle;
-}
-
-.location {
-    text-align: center;
-}
-
 .personal-block {
     display: inline-block;
     max-width: 50%;
+}
+
+.personal-text {
+    margin-left: 30px;
+    
 }
 
 img {
@@ -47,8 +36,9 @@ img {
     width: 300px;
 }
 
-.personal-informations {
-    vertical-align: middle;
+.myName {
+    font-family: 'Roboto';
+    margin-top: 30px;
 }
 
 .location {
@@ -57,17 +47,19 @@ img {
     padding: 5px;
     width: 150px;
     margin-left: 90px;
-    
+    text-align: center;    
+}
+
+.section-title {
+    color: #0A0D1F;
+    background-color: #306BAC;
+    padding: 15px 30px;
+    text-align: center;
 }
 
 li {
     list-style-type: square;
     margin: 5px;
-}
-
-.header {
-    margin-bottom: 30px;
-    text-align: center;
 }
 
 .footer {
