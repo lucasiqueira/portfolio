@@ -22,14 +22,15 @@ body {
 .personal-block {
     display: inline-block;
     max-width: 50%;
+    vertical-align: middle;
+    margin-bottom: 20px;
 }
 
 .personal-text {
-    margin-left: 30px;
-    
+    margin-left: 20px;
 }
 
-img {
+.my-photo {
     background-color: #98B9F2;
     padding: 20px;
     border-radius: 100%;
@@ -44,17 +45,25 @@ img {
 .location {
     background-color: #98B9F2;
     color: #0A0D1F;
-    padding: 5px;
+    padding: 10px;
     width: 150px;
-    margin-left: 90px;
-    text-align: center;    
+    position: absolute;
+    text-align: center;
+    font-weight: 600;  
+    top: 380px;
+    left: 95px;
+    border-radius: 20%;
 }
 
 .section-title {
     color: #0A0D1F;
     background-color: #306BAC;
-    padding: 15px 30px;
+    width: 50%;
     text-align: center;
+}
+
+.section-title h2 {
+    padding: 10px;
 }
 
 li {
