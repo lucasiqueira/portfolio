@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 6rem;
+  background-color: var(--color-header);
+  color: var(--color-font-secondary);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.site-logo-header {
+  height: 5rem;
+  cursor: pointer;
+}
+
+.header-link-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  font-family: "Gabarito", serif;
+  margin-left: 2rem;
+  color: var(--color-font-secondary);
+  font-size: 1.4rem;
+  font-weight: 300;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: var(--color-white);
+  transform: scale(1.1);
+}
+
+.color-mode-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  transition: transform 0.3s;
+  cursor: pointer;
+  margin-left: 2rem;
+  transition: transform 0.3s;
+}
+
+.color-mode-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.color-mode-button:hover {
+  color: var(--color-white);
+  transform: scale(1.4);
+}

@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import aboutData from '../data/about.json';
 import ProfessionalSection from '../components/ProfessionalSection';
 import EducationSection from '../components/EducationSection';
+import Footer from '../components/Footer';
 
 const About: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const About: React.FC = () => {
       <ProfessionalSection experiences={aboutData.pt.experiences} />
       <h2>Educação</h2>
       <EducationSection education={aboutData.pt.education} />
+      <Footer />
     </>
   )
 }

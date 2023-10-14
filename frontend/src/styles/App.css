@@ -1,11 +1,26 @@
-@font-face {
-  font-family: "Inter";
-  src: url('../assets/fonts/Inter/static/Inter-Regular.ttf') format('ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Josefin+Sans:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --color-primary: #1a202c;
+  --color-header: #0b2d41;
+  --color-white: #efd8ef;
+  --color-font-secondary: #00d2cc;
+  --color-beige: #deb887;
+  --color-dark-body: #07121a;
+  --color-dark-font: #e6e6e6;
+  --color-light-body: #ebebeb;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
 }

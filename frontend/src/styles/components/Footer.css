@@ -1,5 +1,5 @@
 footer {
-  background-color: burlywood;
+  background-color: var(--color-beige);
   height: 200px;
   padding: 30px;
 }
