@@ -1,0 +1,118 @@
+{
+  "pt": {
+    "pageTitle": "Sobre mim",
+    "description": [
+      "Em 2021, tomei a decisão de me tornar um desenvolvedor de software, desde então tenho me dedicado a explorar o mundo da tecnologia e me capacitar como profissional. Ingressei em um curso de Desenvolvimento Web Full-Stack que me abriu as portas para este novo universo.",
+      "Minha jornada começou na Engenharia Elétrica, onde acumulei 6 anos de experiência em projetos de médio e grande porte, e análises técnicas. Essa trajetória me proporcionou valiosas habilidades, incluindo trabalho em equipe, organização, liderança, planejamento e solução de problemas.",
+      "Quando não estou diante do computador, aproveito o tempo com minha esposa e três filhas, desfrutando de um dia ao ar livre."
+    ],
+    "experiences": [
+      {
+        "timePeriod": {
+          "start": "nov 2017",
+          "end": "atual"
+        },
+        "show": "true",
+        "employer": "Indra/Construtora Energia",
+        "lastRole": "Análista Técnico",
+        "location": "Goiânia, GO (híbrido)",
+        "roleDescription": "Atuo como terceirizado na Equatorial Energia Goiás, onde minhas responsabilidades abrangem tarefas como a realização de análises de viabilidade técnica. Também desempenho um papel fundamental no desenvolvimento e manutenção do sistema AVT 3.0, iniciando com o desenho da interface de usuário e levantamento de requisitos, além do rastreamento e correção de bugs, bem como a realização de testes em um ambiente de homologação. Além disso, também elaborei ferramentas de análise de dados utilizando o Power Query e Power BI.",
+        "skills": ["Power Query", "Levantamento de Requisitos", "UI", "Análise de dados", "SQL"]
+      },
+      {
+        "timePeriod": {
+          "start": "jun 2017",
+          "end": "jun 2023"
+        },
+        "show": "true",
+        "employer": "Autônomo",
+        "lastRole": "Projetista de instalações elétricas",
+        "location": "Goiânia, GO",
+        "roleDescription": "Elaboração de projeto de instalações elétricas de baixa tensão, projeto de cabeamento estruturado e projeto telefônico para ambientes residenciais, industriais, hospitalares.",
+        "skills": ["Engenharia Elétrica", "AutoCAD", "QiBuilder", "BIM"]
+      },
+      {
+        "timePeriod": {
+          "start": "jun 2017",
+          "end": "jan 2018"
+        },
+        "show": "true",
+        "employer": "Prefeitura Municipal de Goiânia",
+        "lastRole": "Assistente Administrativo",
+        "location": "Goiânia, GO",
+        "roleDescription": "Realizava atendimento ao público com matrículas de alunos, gestão de documentação, arquivamento de processos e lançamento de atividades em sistema de gestão educacional.",
+        "skills": ["Atendimento ao público", "Gestão de documentos", "Trabalho em equipe"]
+      },
+      {
+        "timePeriod": {
+          "start": "fev 2015",
+          "end": "jul 2015"
+        },
+        "show": "false",
+        "employer": "Universidade Federal de Goiás",
+        "lastRole": "Estagiário",
+        "location": "Goiânia, GO",
+        "roleDescription": "Elaboração de projetos de baixa tensão para as instalações da universidade, análise e resolução de problemas relacionados à qualidade de energia, vistoria de instalações elétricas, coleta de dados em campo para apoio à elaboração de projetos e acompanhamento de obras.",
+        "skills": ["Engenharia Elétrica"]
+      },
+      {
+        "timePeriod": {
+          "start": "jul 2014",
+          "end": "fev 2015"
+        },
+        "show": "false",
+        "employer": "CELG Distribuição S.A.",
+        "lastRole": "Estagiário",
+        "location": "Goiânia, GO",
+        "roleDescription": "Acompanhamento de programas sociais relacionados à economia de energia e a realização de testes de qualidade de energia em baixa tensão.",
+        "skills": ["Engenharia Elétrica", "Atendimento ao público"]
+      }
+    ],
+    "education": [
+      {
+        "timePeriod": {
+          "start": "nov 2022",
+          "end": "dez 2023"
+        },
+        "show": "true",
+        "institution": "Trybe",
+        "courseTitle": "Curso de Desenvolvimento Web Full-Stack",
+        "description": "Curso com 1.500 horas de aula com foco nos Fundamentos ao Desenvolvimento de Software, Front-End, Back-End, Ciência da Computação, Engenharia de Software, metodologias ágeis e habilidades comportamentais.",
+        "skills": ["JavaScript", "TypeScript", "React.JS", "Node.JS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
+      },
+      {
+        "timePeriod": {
+          "start": "abr 2023",
+          "end": "abr 2024"
+        },
+        "show": "true",
+        "institution": "Descomplica Faculdade Digital",
+        "courseTitle": "Pós-graduação em Engenharia de Software",
+        "description": "Curso de especialização com foco em desenvolvimento de software, engenharia de software, metodologias ágeis, gestão de projetos, qualidade de software, modelagem de dados, cloud, DevOps, segurança da informação, entre outros.",
+        "skills": ["Java", "UX/UI", "Cloud", "Estrutura de Dados"]
+      },
+      {
+        "timePeriod": {
+          "start": "mar 2011",
+          "end": "jun 2015"
+        },
+        "show": "true",
+        "institution": "Universidade Federal de Goiás",
+        "courseTitle": "Bachaerlado em Engenharia Elétrica",
+        "description": "Graduação com elaboração de trabalho final do curso com título 'Esquemas de Proteção contra a subfrequência em sistemas elétricos de potência', sob a orientação da Profa. Ana Cláudia Marques do Valle, com o qual obtive nota máxima de aprovação.",
+        "skills": ["Engenharia Elétrica"]
+      },
+      {
+        "timePeriod": {
+          "start": "out 2015",
+          "end": "jun 2015"
+        },
+        "show": "false",
+        "institution": "UniAraguaia Centro Universitário",
+        "courseTitle": "Pós-graduação em Engenharia de Segurança do Trabalho",
+        "description": "Especialização para habilitação do exercício da profissão de Engenheiro de Segurança do Trabalho. O trabalho final do curso foi a elaboração do artigo: 'Saúde Mental do Trabalho: Negligências e Medidas de Monitoramento', sob a orientação da Profa. Darlene Araújo de Carvalho, com o qual obtive nota máxima de aprovação.",
+        "skills": ["Segurança do Trabalho", "Saúde Ocupacional"]
+      }
+    ]
+  }
+}
