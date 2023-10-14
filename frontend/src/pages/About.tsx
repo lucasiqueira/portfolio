@@ -9,21 +9,23 @@ const About: React.FC = () => {
   return (
     <>
       <Header />
-      <section>
-        <div>
-          {
-            aboutData.pt.description.map((paragraph: string, index: number) => {
-              return (
-                <p key={index}>{paragraph}</p>
-              )
-            })
-          }
-        </div>
-      </section>
-      <h2>Experiência</h2>
-      <ProfessionalSection experiences={aboutData.pt.experiences} />
-      <h2>Educação</h2>
-      <EducationSection education={aboutData.pt.education} />
+      <main>
+        <section>
+          <div>
+            {
+              aboutData.pt.description.map((paragraph: string, index: number) => {
+                return (
+                  <p key={index}>{paragraph}</p>
+                )
+              })
+            }
+          </div>
+        </section>
+        <h2>Experiência</h2>
+        <ProfessionalSection experiences={aboutData.pt.experiences} />
+        <h2>Educação</h2>
+        <EducationSection education={aboutData.pt.education} />
+      </main>
       <Footer />
     </>
   )

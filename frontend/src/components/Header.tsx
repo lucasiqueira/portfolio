@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import lucasLogo from '../assets/images/lucas-logo.png';
-import moonIcon from '../assets/images/yellow-moon.svg';
+// import moonIcon from '../assets/images/yellow-moon.svg';
+import sunIcon from '../assets/images/yellow-sun.svg';
 import '../styles/components/Header.css';
 
 const Header: React.FC = () => {
@@ -20,7 +21,7 @@ const Header: React.FC = () => {
         <Link to="/contact" className="header-link">Contato</Link>
         <div>
           <button className="color-mode-button">
-            <img src={moonIcon} alt="Ícone do modo de cores" className="color-mode-icon" />
+            <img src={sunIcon} alt="Ícone do modo de cores" className="color-mode-icon" />
           </button>
         </div>
       </div>

@@ -6,7 +6,9 @@ const Blog: React.FC = () => {
   return (
     <>
       <Header />
-      <div>Blog</div>
+      <main>
+        <div>Blog</div>
+      </main>
       <Footer />
     </>
   )
