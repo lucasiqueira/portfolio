@@ -1,11 +1,16 @@
 import React from 'react';
 import cvFile from '../assets/files/cv.pdf'
 
-const DownloadPDFButton: React.FC<{label: string}> = ({ label }) => {
+type DownloadPDFButtonProps = {
+  label: string;
+  fileName: string;
+}
+
+const DownloadPDFButton: React.FC<DownloadPDFButtonProps> = ({ label, fileName }) => {
   const downloadPDF = () => {
     const link = document.createElement('a');
     link.href = cvFile;
-    link.download = 'Curriculo-Lucas-Siqueira.pdf';
+    link.download = fileName;
     link.click();
   };
 

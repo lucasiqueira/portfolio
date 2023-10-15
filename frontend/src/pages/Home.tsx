@@ -11,7 +11,7 @@ import downloadIcon from '../assets/images/download-icon.svg';
 import '../styles/pages/Home.css';
 
 const Home: React.FC = () => {
-  const { title, subtitle, description, button, buttonCV } = siteInfo.pt.homepage;
+  const { title, subtitle, description, button, buttonCV, cvTitle } = siteInfo.pt.homepage;
   return (
     <div>
       <Header />
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
               <button className="home-main-button">{ button }</button>
             </Link>
             <div className="home-main-button-cv">
-              <DownloadPDFButton label={ buttonCV } />
+              <DownloadPDFButton label={ buttonCV } fileName={ cvTitle } />
               <img src={ downloadIcon } alt="Download" className="home-main-download-icon" />
             </div>
           </div>
