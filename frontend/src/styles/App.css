@@ -10,6 +10,7 @@
 
 body {
   background-color: var(--color-dark-font);
+  color: var(--color-primary);
 }
 
 :root {
@@ -41,6 +42,10 @@ main {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
+  background: linear-gradient(to bottom, var(--color-header), var(--color-primary));
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-button-hover-1);
+  border-radius: 10px;
 }
