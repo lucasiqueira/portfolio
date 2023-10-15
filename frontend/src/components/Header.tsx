@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import lucasLogo from '../assets/images/lucas-logo.png';
+import siteInfo from '../data/siteInfo.json';
 // import moonIcon from '../assets/images/yellow-moon.svg';
 import sunIcon from '../assets/images/yellow-sun.svg';
 import '../styles/components/Header.css';
+import { NavbarType } from '../types/NavbarType';
 
 const Header: React.FC = () => {
+  const { navbar } = siteInfo.pt.header;
   return (
     <header>
       <div>
@@ -13,18 +16,18 @@ const Header: React.FC = () => {
           <img src={ lucasLogo } alt="Logo do Lucas" className="site-logo-header" />
         </Link>
       </div>
-      <div className="header-link-container">
-        <Link to="/" className="header-link">Página Inicial</Link>
-        <Link to="/about" className="header-link">Sobre</Link>
-        <Link to="/projects" className="header-link">Projetos</Link>
-        {/* <Link to="/blog" className="header-link">Blog</Link> */}
-        <Link to="/contact" className="header-link">Contato</Link>
-        <div>
-          <button className="color-mode-button">
-            <img src={sunIcon} alt="Ícone do modo de cores" className="color-mode-icon" />
-          </button>
-        </div>
-      </div>
+      <nav className="header-link-container">
+        {
+          navbar.map((item: NavbarType, index: number) => {
+            return (item.active) ? (
+              <Link to={ item.url } className="header-link" key={ index }>{ item.title }</Link>
+            ) : null;
+          })
+        }
+        <button className="color-mode-button">
+          <img src={sunIcon} alt="Ícone do modo de cores" className="color-mode-icon" />
+        </button>
+      </nav>
     </header>
   )
 }
