@@ -1,0 +1,40 @@
+{
+  "pt": {
+    "header": {
+      "navbar": [
+        {
+          "active": 1,
+          "title": "Início",
+          "url": "/"
+        },
+        {
+          "active": 1,
+          "title": "Sobre",
+          "url": "/about"
+        },
+        {
+          "active": 1,
+          "title": "Projetos",
+          "url": "/projects"
+        },
+        {
+          "active": 0,
+          "title": "Blog",
+          "url": "/blog"
+        },
+        {
+          "active": 1,
+          "title": "Contato",
+          "url": "/contact"
+        }
+      ]
+    },
+    "homepage": {
+      "title": "Olá, eu sou o Lucas.",
+      "subtitle": "Desenvolvedor Web Full Stack",
+      "description": "Sou um desenvolvedor de software que valoriza o design, sempre buscando unir código bem estruturado com um visual atraente, focando na combinação de forma e função para criar projetos de alta qualidade. Gosto de encontrar equilíbrio entre estética e praticidade em tudo que faço.",
+      "button": "Saiba mais",
+      "buttonCV": "Baixar currículo"
+    }
+  }
+}
