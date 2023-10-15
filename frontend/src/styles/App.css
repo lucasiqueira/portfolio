@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: var(--color-beige);
+  background-color: var(--color-dark-font);
 }
 
 :root {
@@ -20,7 +20,7 @@ body {
   --color-font-secondary: #00d2cc;
   --color-beige: #deb887;
   --color-dark-body: #07121a;
-  --color-dark-font: #e6e6e6;
+  --color-dark-font: #d7d3df;
   --color-light-body: #ebebeb;
   --color-button-hover-1: #5a5b6d;
   --color-linkedin: #0366c8;
@@ -36,6 +36,7 @@ body {
 
 main {
   min-height: calc(100vh - 18rem);
+  padding: 0 8rem;
 }
 
 ::-webkit-scrollbar {
