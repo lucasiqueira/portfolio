@@ -1,0 +1,96 @@
+.home-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.home-main-content {
+  padding-left: 6rem;
+}
+
+.home-main-title {
+  margin-bottom: 0.5rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.home-main-subtitle {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.home-main-description {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.home-main-buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.home-main-button {
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  background-color: var(--color-primary);
+  color: var(--color-dark-font);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-main-button:hover {
+  background-color: var(--color-button-hover-1);
+}
+
+.home-main-button:active {
+  transform: scale(0.98);
+}
+
+.home-main-button-cv {
+  display: flex;
+  margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+}
+
+.home-main-button-cv button {
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  color: var(--color-primary);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-main-button-cv img {
+  transition: all 0.3s ease-in-out;
+}
+
+.home-main-button-cv:hover button {
+  color: var(--color-button-hover-1);
+  transform:translateY(-0.2rem);
+}
+
+.home-main-button-cv:hover img {
+  filter: invert(35%) sepia(20%) saturate(378%) hue-rotate(199deg) brightness(94%) contrast(88%);
+  transform:translateY(-0.2rem);
+}
+
+.home-main-download-icon {
+  margin-left: 0.3rem;
+  height: 1.5rem;
+}
+
+.home-main-image {
+  max-height: calc(100vh - 18rem);
+}
