@@ -6,6 +6,8 @@ import { SettingsContext } from '../contexts/SettingsContext';
 import projectsInfo from '../data/projectsInfo.json';
 import ProjectCard from '../components/ProjectCard';
 
+import '../styles/pages/Projects.css';
+
 const Projects: React.FC = () => {
   const settingsContext = React.useContext(SettingsContext);
   const actualLanguage = settingsContext.language;
@@ -15,18 +17,18 @@ const Projects: React.FC = () => {
   if (actualLanguage === 'pt') {
     projects = projectsInfo.pt;
   } else {
-    projects = projectsInfo.pt;
+    projects = projectsInfo.en;
   }
 
   return (
     <>
       <Header />
-      <main>
+      <main className="main-projects">
         <div>
-          <h1>{ projects.pageTitle }</h1>
-          <h3>{ projects.pageDescription }</h3>
+          <h1 className="projects-title">{ projects.pageTitle }</h1>
+          <p className="projects-subtitle">{ projects.pageSubtitle }</p>
         </div>
-        <section>
+        <section className="projects-section">
           {
             projects.projects.map((project, index) => {
               return (

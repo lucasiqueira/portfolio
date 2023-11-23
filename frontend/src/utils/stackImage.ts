@@ -12,6 +12,7 @@ import git from '../assets/images/stacks/git.svg';
 import mysql from '../assets/images/stacks/mysql.svg';
 import mongo from '../assets/images/stacks/mongo.svg';
 import linux from '../assets/images/stacks/linux.svg';
+import express from '../assets/images/stacks/express.svg';
 
 export const stackImages = {
   React: react,
@@ -28,4 +29,5 @@ export const stackImages = {
   MySQL: mysql,
   MongoDB: mongo,
   Linux: linux,
+  Express: express,
 };
