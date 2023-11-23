@@ -4,7 +4,7 @@ import EducationCard from './EducationCard';
 
 const FormationSection: React.FC<{education: EducationType[]}> = ({education}) => {
   return (
-    <section>
+    <section className="about-section-content">
       {
         education.map((course: EducationType, index: number) => {
           if (JSON.parse(course.show)) {
