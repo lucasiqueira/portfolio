@@ -11,7 +11,7 @@
         "title": "Meu Portfólio",
         "description": "Este site que você está vendo agora, para demonstração de meus conhecimentos e habilidades.",
         "github": "https://github.com/lucasiqueira/lucasiqueira.github.io",
-        "link": "https://lucasiqueira.github.io/",
+        "link": "https://lucasiqueira-portfolio.vercel.app/",
         "stacks": [
           "React",
           "TypeScript",
