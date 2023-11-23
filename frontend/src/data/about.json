@@ -6,44 +6,53 @@
       "Minha jornada começou na Engenharia Elétrica, onde acumulei 6 anos de experiência em projetos de médio e grande porte, e análises técnicas. Essa trajetória me proporcionou valiosas habilidades, incluindo trabalho em equipe, organização, liderança, planejamento e solução de problemas.",
       "Quando não estou diante do computador, aproveito o tempo com minha esposa e três filhas, desfrutando de um dia ao ar livre."
     ],
-    "skills": [
-      {
-        "title": "HTML"
-      },
-      {
-        "title": "CSS"
-      },
-      {
-        "title": "JavaScript"
-      },
-      {
-        "title": "TypeScript"
-      },
-      {
-        "title": "React.JS"
-      },
-      {
-        "title": "Node.JS"
-      },
-      {
-        "title": "Java"
-      },
-      {
-        "title": "Python"
-      },
-      {
-        "title": "SQL"
-      },
-      {
-        "title": "Git"
-      },
-      {
-        "title": "MySQL"
-      },
-      {
-        "title": "Linux"
-      }
-    ],
+    "skills": {
+      "description": "Aqui estão algumas das tecnologias que tenho trabalhado recentemente:",
+      "stacks": [
+        {
+          "title": "React"
+        },
+        {
+          "title": "NodeJS"
+        },
+        {
+          "title": "Java"
+        },
+        {
+          "title": "Spring"
+        },
+        {
+          "title": "TypeScript"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Angular"
+        },
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "CSS"
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Git"
+        },
+        {
+          "title": "MySQL"
+        },
+        {
+          "title": "MongoDB"
+        },
+        {
+          "title": "Linux"
+        }
+      ]
+    },
     "experiences": [
       {
         "timePeriod": {
