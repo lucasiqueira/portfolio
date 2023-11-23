@@ -1,0 +1,20 @@
+{
+  "pt": {
+    "pageTitle": "Projetos",
+    "pageDescription": "Projetos que desenvolvi até o momento.",
+    "projects": [
+      {
+        "title": "Projeto 1",
+        "description": "Descrição do projeto 1",
+        "image": "https://via.placeholder.com/150",
+        "github": "",
+        "link": "",
+        "stacks": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+}
