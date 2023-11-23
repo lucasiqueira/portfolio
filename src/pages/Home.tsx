@@ -9,6 +9,7 @@ import siteInfo from '../data/siteInfo.json';
 import downloadIcon from '../assets/images/icons/download-icon.svg';
 import '../styles/pages/Home.css';
 import { SettingsContext } from '../contexts/SettingsContext';
+import lucasPhoto from "../assets/images/lucas-photo.png";
 
 const Home: React.FC = () => {
   const settingsContext = React.useContext(SettingsContext);
@@ -28,6 +29,7 @@ const Home: React.FC = () => {
       <Header />
       <main className="home-main">
         <div className="home-main-content">
+          <img src={lucasPhoto} alt="" className="photo-home" />
           <p className="home-main-title">{ title }</p>
           <p className="home-main-subtitle">{ subtitle }</p>
           <p className="home-main-description">{ description }</p>
