@@ -1,0 +1,90 @@
+.description-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+
+.description-paragraph {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  width: 75%;
+  margin: 0 auto 0.5rem auto;
+  text-align: center;
+}
+
+.about-section-title {
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 20px 0;
+  text-align: center;
+  background-color: var(--color-primary-lighter);
+  padding: 35px;
+  color: var(--color-dark-font);
+}
+
+.stacks-section-title {
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  text-align: center;
+  padding: 25px;
+}
+
+.about-section-content {
+  padding: 0 8rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 80%;
+  margin: 0 auto 2rem auto;
+}
+
+.experience-date {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 0.1rem;
+}
+
+.experience-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.experience-role-description {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+  text-align: justify;
+}
+
+.skill-tag {
+  background-color: var(--color-header);
+  color: var(--color-beige);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0 5px 5px 0;
+  font-size: 0.8rem;
+}

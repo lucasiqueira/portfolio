@@ -1,0 +1,22 @@
+{
+  "email": "lucasvinicius.siqueira@gmail.com",
+  "phone": "+55 (62) 98294-2320",
+  "whatsapp": "https://wa.me/5562982942320?text=Ol%C3%A1%2C+Lucas.+Estou+vindo+do+link+do+seu+portf%C3%B3lio.",
+  "github": "http://github.com/lucasiqueira",
+  "linkedin": "http://linkedin.com/in/lucasvsiqueira",
+  "telegram": "https://t.me/lucasiqueira",
+  "x": "http://x.com/lucasiqueira",
+  "medium": "http://lucasvsiqueira.medium.com",
+  "devto": "http://dev.to/lucasiqueira",
+  "hashnode": "http://hashnode.com/@lucasiqueira",
+  "texts": {
+    "pt": {
+      "title": "Como me contatar",
+      "subtitle": "Fique à vontade para me contatar por quaisquer dos meios de contato abaixo"
+    },
+    "en": {
+      "title": "How to contact me",
+      "subtitle": "Feel free to contact me by any of the means below"
+    }
+  }
+}
