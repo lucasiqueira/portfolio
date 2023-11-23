@@ -8,5 +8,15 @@
   "x": "http://x.com/lucasiqueira",
   "medium": "http://lucasvsiqueira.medium.com",
   "devto": "http://dev.to/lucasiqueira",
-  "hashnode": "http://hashnode.com/@lucasiqueira"
+  "hashnode": "http://hashnode.com/@lucasiqueira",
+  "texts": {
+    "pt": {
+      "title": "Como me contatar",
+      "subtitle": "Fique à vontade para me contatar por quaisquer dos meios de contato abaixo"
+    },
+    "en": {
+      "title": "How to contact me",
+      "subtitle": "Feel free to contact me by any of the means below"
+    }
+  }
 }
