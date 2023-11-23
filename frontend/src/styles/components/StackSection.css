@@ -1,0 +1,46 @@
+.stacks-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
+}
+
+.stack-logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+
+.stack-logo-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Inicialmente invisível */
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.stack-logo {
+  width: 80px;
+  filter: grayscale(0%);
+  transition: filter 0.3s;
+}
+
+.stack-logo-container:hover img {
+  filter: grayscale(100%);
+  opacity: 20%;
+}
+
+.stack-logo-container:hover .stack-logo-title {
+  opacity: 1;
+}
