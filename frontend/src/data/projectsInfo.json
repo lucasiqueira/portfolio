@@ -1,18 +1,46 @@
 {
   "pt": {
-    "pageTitle": "Projetos",
-    "pageDescription": "Projetos que desenvolvi até o momento.",
+    "pageTitle": "O que fiz até o momento",
+    "pageSubtitle": "(mais projetos vindo em breve)",
+    "links": {
+      "repository": "Repositório",
+      "app": "Aplicação"
+    },
     "projects": [
       {
-        "title": "Projeto 1",
-        "description": "Descrição do projeto 1",
-        "image": "https://via.placeholder.com/150",
-        "github": "",
-        "link": "",
+        "title": "Meu Portfólio",
+        "description": "Este site que você está vendo agora, para demonstração de meus conhecimentos e habilidades.",
+        "github": "https://github.com/lucasiqueira/lucasiqueira.github.io",
+        "link": "https://lucasiqueira.github.io/",
         "stacks": [
-          "HTML",
+          "React",
+          "TypeScript",
           "CSS",
-          "JavaScript"
+          "HTML",
+          "Git"
+        ]
+      }
+    ]
+  },
+  "en": {
+    "pageTitle": "What I've done so far",
+    "pageSubtitle": "(more coming soon)",
+    "links": {
+      "repository": "Repository",
+      "app": "Demo"
+    },
+    "projects": [
+      {
+        "title": "My Portfolio",
+        "description": "This website you're seeing right now, to demonstrate my knowledge and skills.",
+        "github": "https://github.com/lucasiqueira/lucasiqueira.github.io",
+        "link": "https://lucasiqueira.github.io/",
+        "stacks": [
+          "React",
+          "TypeScript",
+          "CSS",
+          "HTML",
+          "Git"
         ]
       }
     ]
