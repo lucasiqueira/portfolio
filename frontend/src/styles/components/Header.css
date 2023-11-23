@@ -53,14 +53,29 @@ header {
   align-items: center;
   background-color: transparent;
   border: none;
+  /* padding: 5px; */
+  border-radius: 100%;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 1.7rem;
+  transition: transform 0.3s;
+}
+
+.language-toggle-button {
+  background-color: transparent;
+  border: none;
   padding: 5px;
   border-radius: 100%;
   font-weight: 500;
-  transition: transform 0.3s;
   cursor: pointer;
   margin-left: 2rem;
+  color: var(--color-beige);
   transition: transform 0.3s;
-  
+}
+
+.language-toggle-button:hover {
+  color: var(--color-white);
+  transform: scale(1.1);
 }
 
 .color-mode-icon {
@@ -69,8 +84,8 @@ header {
 }
 
 .color-mode-button:hover {
-  box-shadow: 0 0 1rem #12161f;
-  background-color: var(--color-primary-lighter);
+  /* box-shadow: 0 0 1rem #12161f; */
+  /* background-color: var(--color-primary-lighter); */
   transform: scale(1.2);
 }
 

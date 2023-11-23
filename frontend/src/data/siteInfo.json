@@ -1,4 +1,43 @@
 {
+  "en": {
+    "header": {
+      "navbar": [
+        {
+          "active": 1,
+          "title": "Home",
+          "url": "/"
+        },
+        {
+          "active": 1,
+          "title": "About",
+          "url": "/about"
+        },
+        {
+          "active": 1,
+          "title": "Projects",
+          "url": "/projects"
+        },
+        {
+          "active": 0,
+          "title": "Blog",
+          "url": "/blog"
+        },
+        {
+          "active": 1,
+          "title": "Contact",
+          "url": "/contact"
+        }
+      ]
+    },
+    "homepage": {
+      "title": "Hi, I'm Lucas.",
+      "subtitle": "Full-Stack Web Developer",
+      "description": "I am a software developer who values design, always striving to combine well-structured code with an appealing visual, focusing on the integration of form and function to create high-quality projects. I enjoy finding a balance between aesthetics and practicality in everything I do.",
+      "button": "Learn more",
+      "buttonCV": "Download CV",
+      "cvTitle": "CV_Lucas_Siqueira.pdf"
+    }
+  },
   "pt": {
     "header": {
       "navbar": [

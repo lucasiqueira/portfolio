@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import DownloadPDFButton from '../components/DownloadPDFButton';
 
 import siteInfo from '../data/siteInfo.json';
-import lucasPhoto from '../assets/images/lucas-photo.png';
+import heroImage from '../assets/images/hero-image.jpeg';
 import downloadIcon from '../assets/images/download-icon.svg';
 import '../styles/pages/Home.css';
 
@@ -30,7 +30,7 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-        <img src={ lucasPhoto } alt="Imagem do Lucas" className="home-main-image" />
+        <img src={ heroImage } alt="Imagem do Lucas" className="home-main-image" />
       </main>
       <Footer />
     </div>

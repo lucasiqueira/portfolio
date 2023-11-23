@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import lucasLogo from '../assets/images/lucas-logo.png';
 import siteInfo from '../data/siteInfo.json';
-import moonIcon from '../assets/images/yellow-moon.svg';
-import sunIcon from '../assets/images/yellow-sun.svg';
+// import moonIcon from '../assets/images/yellow-moon.svg';
+// import sunIcon from '../assets/images/yellow-sun.svg';
 import '../styles/components/Header.css';
 import { NavbarType } from '../types/NavbarType';
 import { SettingsContext } from '../contexts/SettingsContext';
@@ -11,11 +11,23 @@ import { SettingsContext } from '../contexts/SettingsContext';
 const Header: React.FC = () => {
   const settingsContext = React.useContext(SettingsContext);
 
-  const handleToggleColorMode = () => {
-    settingsContext?.toggleTheme();
+  // const handleToggleColorMode = () => {
+  //   settingsContext.toggleTheme();
+  // }
+
+  const handleToggleLanguage = () => {
+    settingsContext.toggleLanguage();
+  }
+  
+  const actualLanguage = settingsContext.language;
+  
+  let navbar: NavbarType[] = [];
+  if (actualLanguage === 'pt') {
+    navbar = siteInfo[actualLanguage].header.navbar;
+  } else {
+    navbar = siteInfo.en.header.navbar;
   }
 
-  const { navbar } = siteInfo.pt.header;
   return (
     <header>
       <div>
@@ -31,11 +43,14 @@ const Header: React.FC = () => {
             ) : null;
           })
         }
-        <button className="color-mode-button" onClick={ handleToggleColorMode }>
+        <button className="language-toggle-button" onClick={handleToggleLanguage}>
+          { (settingsContext?.language === 'pt') ? 'EN' : 'PT'}
+        </button>
+        {/* <button className="color-mode-button" onClick={ handleToggleColorMode }>
           <img src={ 
             (settingsContext?.theme === 'light') ? sunIcon : moonIcon
            } alt="Ícone do modo de cores" className="color-mode-icon" />
-        </button>
+        </button> */}
       </nav>
     </header>
   )
