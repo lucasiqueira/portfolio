@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import DownloadPDFButton from '../components/DownloadPDFButton';
 
 import siteInfo from '../data/siteInfo.json';
-import downloadIcon from '../assets/images/download-icon.svg';
+import downloadIcon from '../assets/images/icons/download-icon.svg';
 import '../styles/pages/Home.css';
 import { SettingsContext } from '../contexts/SettingsContext';
 

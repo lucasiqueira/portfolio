@@ -1,11 +1,11 @@
 import React from 'react';
 import contactInfo from '../data/contactInfo.json';
-import linkedinLogo from '../assets/images/black-linkedin-logo.svg';
-import githubLogo from '../assets/images/github-logo.svg';
-import xLogo from '../assets/images/x-logo.svg';
-import telegramLogo from '../assets/images/telegram-logo.svg';
-import whatsappLogo from '../assets/images/whatsapp-logo.svg';
-import mailLogo from '../assets/images/mail-logo.svg';
+import linkedinLogo from '../assets/images/icons/black-linkedin-logo.svg';
+import githubLogo from '../assets/images/icons/github-logo.svg';
+import xLogo from '../assets/images/icons/x-logo.svg';
+import telegramLogo from '../assets/images/icons/telegram-logo.svg';
+import whatsappLogo from '../assets/images/icons/whatsapp-logo.svg';
+import mailLogo from '../assets/images/icons/mail-logo.svg';
 import '../styles/components/Footer.css';
 
 
