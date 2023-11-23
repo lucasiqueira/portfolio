@@ -5,8 +5,8 @@
   width: 100%;
   margin: auto;
   background: linear-gradient(to right, var(--color-dark-font) 0%, var(--color-dark-font) 50%, transparent 100%), url('../../assets/images/hero-image.jpeg');
-  background-size: cover;
-  background-position: center;
+  background-size:contain;
+  background-position: right;
 }
 
 .home-main-content {
