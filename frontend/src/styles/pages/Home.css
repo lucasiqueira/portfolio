@@ -1,13 +1,17 @@
 .home-main {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   width: 100%;
   margin: auto;
+  background: linear-gradient(to right, var(--color-dark-font) 0%, var(--color-dark-font) 50%, transparent 100%), url('../../assets/images/hero-image.jpeg');
+  background-size: cover;
+  background-position: center;
 }
 
 .home-main-content {
   padding-left: 6rem;
+  padding-right: 30rem;
 }
 
 .home-main-title {
@@ -91,6 +95,14 @@
   height: 1.5rem;
 }
 
-.home-main-image {
+.home-main-image-container {
   max-height: calc(100vh - 18rem);
+  position: relative;
 }
+
+.home-main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+

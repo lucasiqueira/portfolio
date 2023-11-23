@@ -23,4 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-*lucas-photo.png
+.DS_Store

@@ -6,12 +6,23 @@ import Footer from '../components/Footer';
 import DownloadPDFButton from '../components/DownloadPDFButton';
 
 import siteInfo from '../data/siteInfo.json';
-import heroImage from '../assets/images/hero-image.jpeg';
 import downloadIcon from '../assets/images/download-icon.svg';
 import '../styles/pages/Home.css';
+import { SettingsContext } from '../contexts/SettingsContext';
 
 const Home: React.FC = () => {
-  const { title, subtitle, description, button, buttonCV, cvTitle } = siteInfo.pt.homepage;
+  const settingsContext = React.useContext(SettingsContext);
+  const actualLanguage = settingsContext.language;
+
+
+  let homepage;
+  if (actualLanguage === 'pt') {
+    homepage = siteInfo.pt.homepage;
+  } else {
+    homepage = siteInfo.en.homepage;
+  }
+
+  const { title, subtitle, description, button, buttonCV, cvTitle } = homepage;
   return (
     <div>
       <Header />
@@ -30,7 +41,6 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-        <img src={ heroImage } alt="Imagem do Lucas" className="home-main-image" />
       </main>
       <Footer />
     </div>
