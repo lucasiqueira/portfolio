@@ -17,7 +17,7 @@ const About: React.FC = () => {
   if (actualLanguage === 'pt') {
     about = aboutData.pt;
   } else {
-    about = aboutData.pt;
+    about = aboutData.en;
   }
 
   return (

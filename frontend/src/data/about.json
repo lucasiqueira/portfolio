@@ -130,7 +130,7 @@
         "institution": "Trybe",
         "courseTitle": "Curso de Desenvolvimento Web Full-Stack",
         "description": "Curso com 1.500 horas de aula com foco nos Fundamentos ao Desenvolvimento de Software, Front-End, Back-End, Ciência da Computação, Engenharia de Software, metodologias ágeis e habilidades comportamentais.",
-        "skills": ["JavaScript", "TypeScript", "React.JS", "Node.JS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
+        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
       },
       {
         "timePeriod": {
@@ -166,5 +166,173 @@
         "skills": ["Segurança do Trabalho", "Saúde Ocupacional"]
       }
     ]
+  },
+  "en": {
+    "pageTitle": "About me",
+    "titles": {
+      "littleAboutMe": "A little bit about me",
+      "experiences": "Experiences",
+      "education": "Education"
+    },
+    "description": [
+      "In 2021, I made the decision to become a software developer, and since then, I have been dedicated to exploring the world of technology and honing my professional skills. I enrolled in a Full-Stack Web Development course that opened doors to this new universe.",
+      "My journey began in Electrical Engineering, where I accumulated 6 years of experience in medium and large-scale projects, and technical analysis. This path provided me with valuable skills, including teamwork, organization, leadership, planning, and problem-solving.",
+      "When not working on a project or studying, I enjoy spending time with my wife and daughters."
+    ],
+    "skills": {
+      "description": "Here are some of the technologies I have been working with recently:",
+      "stacks": [
+        {
+          "title": "React"
+        },
+        {
+          "title": "NodeJS"
+        },
+        {
+          "title": "Java"
+        },
+        {
+          "title": "Spring"
+        },
+        {
+          "title": "TypeScript"
+        },
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "Angular"
+        },
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "CSS"
+        },
+        {
+          "title": "Python"
+        },
+        {
+          "title": "Git"
+        },
+        {
+          "title": "MySQL"
+        },
+        {
+          "title": "MongoDB"
+        },
+        {
+          "title": "Linux"
+        }
+      ]
+    },
+    "experiences": [
+      {
+        "timePeriod": {
+          "start": "Nov 2017",
+          "end": "Present"
+        },
+        "show": "true",
+        "employer": "Indra/Construtora Energia",
+        "lastRole": "Technical Analyst",
+        "location": "Goiânia, GO (hybrid)",
+        "roleDescription": "I work as an outsourced professional at Equatorial Energia Goiás, where my responsibilities include tasks such as conducting technical feasibility analyses. I also play a key role in the development and maintenance of the AVT 3.0 system, starting with user interface design and requirements gathering, as well as tracking and fixing bugs, and conducting tests in a staging environment. Additionally, I have developed data analysis tools using Power Query and Power BI.",
+        "skills": ["Power Query", "Requirements Gathering", "UI", "Data Analysis", "SQL"]
+      },
+      {
+        "timePeriod": {
+          "start": "Jun 2017",
+          "end": "Jun 2023"
+        },
+        "show": "true",
+        "employer": "Freelancer",
+        "lastRole": "Electrical Installations Designer",
+        "location": "Goiânia, GO",
+        "roleDescription": "Preparation of electrical installations projects for low voltage, structured cabling projects, and telephone projects for residential, industrial, and hospital environments.",
+        "skills": ["Electrical Engineering", "AutoCAD", "QiBuilder", "BIM"]
+      },
+      {
+        "timePeriod": {
+          "start": "Jun 2017",
+          "end": "Jan 2018"
+        },
+        "show": "true",
+        "employer": "Municipal Government of Goiânia",
+        "lastRole": "Administrative Assistant",
+        "location": "Goiânia, GO",
+        "roleDescription": "Provided customer service for student enrollments, managed documentation, filed processes, and entered activities into the educational management system.",
+        "skills": ["Customer Service", "Document Management", "Teamwork"]
+      },
+      {
+        "timePeriod": {
+          "start": "Feb 2015",
+          "end": "Jul 2015"
+        },
+        "show": "false",
+        "employer": "Federal University of Goiás",
+        "lastRole": "Intern",
+        "location": "Goiânia, GO",
+        "roleDescription": "Prepared low voltage projects for university facilities, analyzed and solved problems related to power quality, inspected electrical installations, collected field data to support project development, and monitored construction sites.",
+        "skills": ["Electrical Engineering"]
+      },
+      {
+        "timePeriod": {
+          "start": "Jul 2014",
+          "end": "Feb 2015"
+        },
+        "show": "false",
+        "employer": "CELG Distribuição S.A.",
+        "lastRole": "Intern",
+        "location": "Goiânia, GO",
+        "roleDescription": "Monitored energy-saving programs and conducted tests on low-voltage power quality.",
+        "skills": ["Electrical Engineering", "Customer Service"]
+      }
+    ],
+    "education": [
+      {
+        "timePeriod": {
+          "start": "Nov 2022",
+          "end": "Dec 2023"
+        },
+        "show": "true",
+        "institution": "Trybe",
+        "courseTitle": "Full-Stack Web Development Course",
+        "description": "Course with 1,500 class hours focusing on Software Development Fundamentals, Front-End, Back-End, Computer Science, Software Engineering, Agile methodologies, and behavioral skills.",
+        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
+      },
+      {
+        "timePeriod": {
+          "start": "Apr 2023",
+          "end": "Apr 2024"
+        },
+        "show": "true",
+        "institution": "Descomplica Faculdade Digital",
+        "courseTitle": "Postgraduate in Software Engineering",
+        "description": "Specialization course focusing on software development, software engineering, agile methodologies, project management, software quality, data modeling, cloud, DevOps, information security, among others.",
+        "skills": ["Java", "UX/UI", "Cloud", "Data Structures"]
+      },
+      {
+        "timePeriod": {
+          "start": "Mar 2011",
+          "end": "Jun 2015"
+        },
+        "show": "true",
+        "institution": "Federal University of Goiás",
+        "courseTitle": "Bachelor's Degree in Electrical Engineering",
+        "description": "Graduation with the final course work titled 'Protection Schemes against Subfrequency in Power Systems,' under the guidance of Prof. Ana Cláudia Marques do Valle, with which I received the highest approval grade.",
+        "skills": ["Electrical Engineering"]
+      },
+      {
+        "timePeriod": {
+          "start": "Oct 2015",
+          "end": "Jun 2015"
+        },
+        "show": "false",
+        "institution": "UniAraguaia Centro Universitário",
+        "courseTitle": "Postgraduate in Occupational Safety Engineering",
+        "description": "Specialization for the qualification for the profession of Occupational Safety Engineer. The final course work was the elaboration of the article: 'Mental Health at Work: Negligence and Monitoring Measures,' under the guidance of Prof. Darlene Araújo de Carvalho, with which I received the highest approval grade.",
+        "skills": ["Occupational Safety", "Occupational Health"]
+      }
+    ]
   }
-}
+}  
