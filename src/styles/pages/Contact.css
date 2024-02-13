@@ -54,3 +54,20 @@
     transform: translateY(-10px);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .main-contact {
+    padding: 0 2rem;
+  }
+
+  .contact-subtitle {
+    width: 100%;
+  }
+
+  .contact-subtitle-image {
+    max-width: 150px;
+    padding-top: 5rem;
+  }
+
+  
+}
