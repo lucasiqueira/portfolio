@@ -9,6 +9,7 @@ import { NavbarType } from '../types/NavbarType';
 import { SettingsContext } from '../contexts/SettingsContext';
 
 const Header: React.FC = () => {
+  const [menuOpen, setMenuOpen] = React.useState(false);
   const settingsContext = React.useContext(SettingsContext);
 
   // const handleToggleColorMode = () => {
@@ -36,6 +37,12 @@ const Header: React.FC = () => {
         </Link>
       </div>
       <nav className="header-link-container">
+        <div className={"menu-icon"} onClick={() => setMenuOpen(!menuOpen)}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div className={`menu-items ${menuOpen ? 'menu-open' : ''}`}>
         {
           navbar.map((item: NavbarType, index: number) => {
             return (item.active) ? (
@@ -46,6 +53,7 @@ const Header: React.FC = () => {
         <button className="language-toggle-button" onClick={handleToggleLanguage}>
           { (settingsContext?.language === 'pt') ? 'EN' : 'PT'}
         </button>
+      </div>
         {/* <button className="color-mode-button" onClick={ handleToggleColorMode }>
           <img src={ 
             (settingsContext?.theme === 'light') ? sunIcon : moonIcon
