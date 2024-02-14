@@ -18,6 +18,12 @@
   display: inline-block;
 }
 
+@media screen and (max-width: 768px){
+  .stacks-div {
+    width: 100%;
+  }
+}
+
 
 .stack-logo-title {
   position: absolute;
