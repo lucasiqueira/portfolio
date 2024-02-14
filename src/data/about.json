@@ -9,7 +9,7 @@
     "description": [
       "Em 2021, tomei a decisão de me tornar um desenvolvedor de software, desde então tenho me dedicado a explorar o mundo da tecnologia e me capacitar como profissional. Ingressei em um curso de Desenvolvimento Web Full-Stack que me abriu as portas para este novo universo.",
       "Minha jornada começou na Engenharia Elétrica, onde acumulei 6 anos de experiência em projetos de médio e grande porte, e análises técnicas. Essa trajetória me proporcionou valiosas habilidades, incluindo trabalho em equipe, organização, liderança, planejamento e solução de problemas.",
-      "Quando não estou trabalhando em algum projeto ou estudando, aproveito o tempo com minha esposa e minhas filhas."
+      "Quando não trabalhando em algum projeto ou estudando, aproveito o tempo com minha esposa e filhas."
     ],
     "skills": {
       "description": "Aqui estão algumas das tecnologias que tenho trabalhado recentemente:",
@@ -126,17 +126,6 @@
     "education": [
       {
         "timePeriod": {
-          "start": "nov 2022",
-          "end": "dez 2023"
-        },
-        "show": "true",
-        "institution": "Trybe",
-        "courseTitle": "Curso de Desenvolvimento Web Full-Stack",
-        "description": "Curso com 1.500 horas de aula com foco nos Fundamentos ao Desenvolvimento de Software, Front-End, Back-End, Ciência da Computação, Engenharia de Software, metodologias ágeis e habilidades comportamentais.",
-        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
-      },
-      {
-        "timePeriod": {
           "start": "abr 2023",
           "end": "abr 2024"
         },
@@ -145,6 +134,17 @@
         "courseTitle": "Pós-graduação em Engenharia de Software",
         "description": "Curso de especialização com foco em desenvolvimento de software, engenharia de software, metodologias ágeis, gestão de projetos, qualidade de software, modelagem de dados, cloud, DevOps, segurança da informação, entre outros.",
         "skills": ["Java", "UX/UI", "Cloud", "Estrutura de Dados"]
+      },
+      {
+        "timePeriod": {
+          "start": "nov 2022",
+          "end": "jan 2024"
+        },
+        "show": "true",
+        "institution": "Trybe",
+        "courseTitle": "Curso de Desenvolvimento Web Full-Stack",
+        "description": "Curso com 1.500 horas de aula com foco nos Fundamentos ao Desenvolvimento de Software, Front-End, Back-End, Ciência da Computação, Engenharia de Software, metodologias ágeis e habilidades comportamentais.",
+        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
       },
       {
         "timePeriod": {
@@ -180,7 +180,7 @@
     "description": [
       "In 2021, I made the decision to become a software developer, and since then, I have been dedicated to exploring the world of technology and honing my professional skills. I enrolled in a Full-Stack Web Development course that opened doors to this new universe.",
       "My journey began in Electrical Engineering, where I accumulated 6 years of experience in medium and large-scale projects, and technical analysis. This path provided me with valuable skills, including teamwork, organization, leadership, planning, and problem-solving.",
-      "When I'm not working on a project or studying, I enjoy spending time with my wife and my daughters."
+      "When not working on a project or studying, I enjoy spending time with my wife and daughters."
     ],
     "skills": {
       "description": "Here are some of the technologies I have been working with recently:",
@@ -294,17 +294,6 @@
     "education": [
       {
         "timePeriod": {
-          "start": "Nov 2022",
-          "end": "Dec 2023"
-        },
-        "show": "true",
-        "institution": "Trybe",
-        "courseTitle": "Full-Stack Web Development Course",
-        "description": "Course with 1,500 class hours focusing on Software Development Fundamentals, Front-End, Back-End, Computer Science, Software Engineering, Agile methodologies, and behavioral skills.",
-        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
-      },
-      {
-        "timePeriod": {
           "start": "Apr 2023",
           "end": "Apr 2024"
         },
@@ -313,6 +302,17 @@
         "courseTitle": "Postgraduate in Software Engineering",
         "description": "Specialization course focusing on software development, software engineering, agile methodologies, project management, software quality, data modeling, cloud, DevOps, information security, among others.",
         "skills": ["Java", "UX/UI", "Cloud", "Data Structures"]
+      },
+      {
+        "timePeriod": {
+          "start": "Nov 2022",
+          "end": "Jan 2024"
+        },
+        "show": "true",
+        "institution": "Trybe",
+        "courseTitle": "Full-Stack Web Development Course",
+        "description": "Course with 1,500 class hours focusing on Software Development Fundamentals, Front-End, Back-End, Computer Science, Software Engineering, Agile methodologies, and behavioral skills.",
+        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
       },
       {
         "timePeriod": {
