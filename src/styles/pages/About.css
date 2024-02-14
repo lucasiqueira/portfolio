@@ -98,23 +98,31 @@
 
 @media only screen and (max-width: 768px) {
   .about-section-content {
-    padding: 0 1rem;
+    padding: 0;
   }
 
   .description-paragraph-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
+  }
+
+  .stacks-section-title {
+    padding: 1rem 1rem 0;
+  }
+
+  .stacks-div {
+    width: 100%;
   }
 
   .description-paragraph {
-    width: 90%;
+    width: 100%;
     font-size: 20px;
     font-weight: 300;
   }
 
-  .about-section-content {
-    padding: 0 1rem;
-    flex-wrap: wrap;
+  .experience-container {
+    width: 90%;
   }
 }
