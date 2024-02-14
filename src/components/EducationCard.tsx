@@ -9,7 +9,7 @@ const EducationCard: React.FC<{course: EducationType}> = ({course}) => {
       <div>
         <div className="experience-title">{courseTitle} - { institution }</div>
         <div className="experience-role-description">{description}</div>
-        <div>
+        <div className="skills-experience-div">
           {
             skills.map((skill, index) => {
               return (

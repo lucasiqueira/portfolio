@@ -126,17 +126,6 @@
     "education": [
       {
         "timePeriod": {
-          "start": "nov 2022",
-          "end": "dez 2023"
-        },
-        "show": "true",
-        "institution": "Trybe",
-        "courseTitle": "Curso de Desenvolvimento Web Full-Stack",
-        "description": "Curso com 1.500 horas de aula com foco nos Fundamentos ao Desenvolvimento de Software, Front-End, Back-End, Ciência da Computação, Engenharia de Software, metodologias ágeis e habilidades comportamentais.",
-        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
-      },
-      {
-        "timePeriod": {
           "start": "abr 2023",
           "end": "abr 2024"
         },
@@ -145,6 +134,17 @@
         "courseTitle": "Pós-graduação em Engenharia de Software",
         "description": "Curso de especialização com foco em desenvolvimento de software, engenharia de software, metodologias ágeis, gestão de projetos, qualidade de software, modelagem de dados, cloud, DevOps, segurança da informação, entre outros.",
         "skills": ["Java", "UX/UI", "Cloud", "Estrutura de Dados"]
+      },
+      {
+        "timePeriod": {
+          "start": "nov 2022",
+          "end": "jan 2024"
+        },
+        "show": "true",
+        "institution": "Trybe",
+        "courseTitle": "Curso de Desenvolvimento Web Full-Stack",
+        "description": "Curso com 1.500 horas de aula com foco nos Fundamentos ao Desenvolvimento de Software, Front-End, Back-End, Ciência da Computação, Engenharia de Software, metodologias ágeis e habilidades comportamentais.",
+        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
       },
       {
         "timePeriod": {
@@ -294,17 +294,6 @@
     "education": [
       {
         "timePeriod": {
-          "start": "Nov 2022",
-          "end": "Dec 2023"
-        },
-        "show": "true",
-        "institution": "Trybe",
-        "courseTitle": "Full-Stack Web Development Course",
-        "description": "Course with 1,500 class hours focusing on Software Development Fundamentals, Front-End, Back-End, Computer Science, Software Engineering, Agile methodologies, and behavioral skills.",
-        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
-      },
-      {
-        "timePeriod": {
           "start": "Apr 2023",
           "end": "Apr 2024"
         },
@@ -313,6 +302,17 @@
         "courseTitle": "Postgraduate in Software Engineering",
         "description": "Specialization course focusing on software development, software engineering, agile methodologies, project management, software quality, data modeling, cloud, DevOps, information security, among others.",
         "skills": ["Java", "UX/UI", "Cloud", "Data Structures"]
+      },
+      {
+        "timePeriod": {
+          "start": "Nov 2022",
+          "end": "Jan 2024"
+        },
+        "show": "true",
+        "institution": "Trybe",
+        "courseTitle": "Full-Stack Web Development Course",
+        "description": "Course with 1,500 class hours focusing on Software Development Fundamentals, Front-End, Back-End, Computer Science, Software Engineering, Agile methodologies, and behavioral skills.",
+        "skills": ["JavaScript", "TypeScript", "React", "NodeJS", "Java", "Python", "SQL", "Git", "HTML", "CSS"]
       },
       {
         "timePeriod": {

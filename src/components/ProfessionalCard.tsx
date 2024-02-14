@@ -9,7 +9,7 @@ const ProfessionalCard: React.FC<{ experience: ExperienceType }> = ({ experience
       <div>
         <div className="experience-title">{lastRole} - {employer}</div>
         <div className="experience-role-description">{roleDescription}</div>
-        <div>
+        <div className="skills-experience-div">
           {
             skills.map((skill, index) => {
               return (

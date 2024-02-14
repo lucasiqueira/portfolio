@@ -48,6 +48,13 @@
   padding: 25px;
 }
 
+.skills-experience-div{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 20px 0;
+}
+
 .about-section-content {
   padding: 0 8rem;
 }
@@ -87,4 +94,27 @@
   border-radius: 10px;
   margin: 0 5px 5px 0;
   font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-section-content {
+    padding: 0 1rem;
+  }
+
+  .description-paragraph-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-paragraph {
+    width: 90%;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .about-section-content {
+    padding: 0 1rem;
+    flex-wrap: wrap;
+  }
 }

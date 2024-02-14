@@ -1,13 +1,11 @@
 footer {
   background-color: var(--color-primary);
   min-height: 12rem;
-  height:fit-content;
   padding: 2rem 8rem;
   color: var(--color-font-secondary);
   bottom: 0;
   left: 0;
   width: 100%;
-  max-height: 12rem;
 }
 
 .logo-section-footer {
@@ -77,4 +75,24 @@ footer {
   align-items: center;
   color: var(--color-light-body);
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 2rem 3rem;
+  }
+
+  .logo-section-footer {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .logo-footer-container {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .logo-footer {
+    width: 45px;
+  }
 }
