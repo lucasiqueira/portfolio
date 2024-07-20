@@ -41,3 +41,17 @@ Lucas Siqueira
 ### Links
 - [Meu Portfólio](https://lucasiqueira-portfolio.vercel.app/)
 - [Repositório](https://github.com/lucasiqueira/portfolio)
+
+### Versões
+- 1.0.0
+```
+- Versão inicial
+```
+- 1.0.1
+```
+- Alteracões no Footer
+- Adição de botão para página de Projetos na Home.
+- Atualização de informações de contato.
+- Atualização de dados de experiências profissionais.
+- Atualização de informações de formação acadêmica.
+```

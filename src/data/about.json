@@ -64,8 +64,32 @@
     "experiences": [
       {
         "timePeriod": {
-          "start": "nov 2017",
+          "start": "jun 2024",
           "end": "atual"
+        },
+        "show": "true",
+        "employer": "Banco do Brasil",
+        "lastRole": "Desenvolvedor de Software",
+        "location": "Brasília, DF",
+        "roleDescription": "Atuo como desenvolvedor de software, onde minhas responsabilidades abrangem tarefas relacionadas ao BaaS (Bank as a Service), na exposição de APIs para integração com parceiros e clientes.",
+        "skills": ["Java", "Quarkus", "Angular", "SQL"]
+      },
+      {
+        "timePeriod": {
+          "start": "jun 2017",
+          "end": "atual"
+        },
+        "show": "true",
+        "employer": "Autônomo",
+        "lastRole": "Projetista de instalações elétricas",
+        "location": "Goiânia, GO",
+        "roleDescription": "Elaboração de projeto de instalações elétricas de baixa tensão, projeto de cabeamento estruturado e projeto telefônico para ambientes residenciais, industriais, hospitalares.",
+        "skills": ["Engenharia Elétrica", "AutoCAD", "QiBuilder", "BIM"]
+      },
+      {
+        "timePeriod": {
+          "start": "nov 2017",
+          "end": "mai 2024"
         },
         "show": "true",
         "employer": "Indra/Construtora Energia",
@@ -77,21 +101,9 @@
       {
         "timePeriod": {
           "start": "jun 2017",
-          "end": "jun 2023"
-        },
-        "show": "true",
-        "employer": "Autônomo",
-        "lastRole": "Projetista de instalações elétricas",
-        "location": "Goiânia, GO",
-        "roleDescription": "Elaboração de projeto de instalações elétricas de baixa tensão, projeto de cabeamento estruturado e projeto telefônico para ambientes residenciais, industriais, hospitalares.",
-        "skills": ["Engenharia Elétrica", "AutoCAD", "QiBuilder", "BIM"]
-      },
-      {
-        "timePeriod": {
-          "start": "jun 2017",
           "end": "jan 2018"
         },
-        "show": "true",
+        "show": "false",
         "employer": "Prefeitura Municipal de Goiânia",
         "lastRole": "Assistente Administrativo",
         "location": "Goiânia, GO",
@@ -127,10 +139,10 @@
       {
         "timePeriod": {
           "start": "abr 2023",
-          "end": "abr 2024"
+          "end": "mai 2024"
         },
         "show": "true",
-        "institution": "Descomplica Faculdade Digital",
+        "institution": "UniAmérica",
         "courseTitle": "Pós-graduação em Engenharia de Software",
         "description": "Curso de especialização com foco em desenvolvimento de software, engenharia de software, metodologias ágeis, gestão de projetos, qualidade de software, modelagem de dados, cloud, DevOps, segurança da informação, entre outros.",
         "skills": ["Java", "UX/UI", "Cloud", "Estrutura de Dados"]
@@ -232,8 +244,32 @@
     "experiences": [
       {
         "timePeriod": {
+          "start": "Jun 2024",
+          "end": "present"
+        },
+        "show": "true",
+        "employer": "Banco do Brasil",
+        "lastRole": "Software Developer",
+        "location": "Brasília, DF",
+        "roleDescription": "I work as a software developer, where my responsibilities include tasks related to BaaS (Bank as a Service), in the exposure of APIs for integration with partners and clients.",
+        "skills": ["Java", "Quarkus", "Angular", "SQL"]
+      },
+      {
+        "timePeriod": {
+          "start": "Jun 2017",
+          "end": "Jun 2023"
+        },
+        "show": "true",
+        "employer": "Freelancer",
+        "lastRole": "Electrical Installations Engineer",
+        "location": "Goiânia, GO",
+        "roleDescription": "Preparation of electrical installations projects for low voltage, structured cabling projects, and telephone projects for residential, industrial, and hospital environments.",
+        "skills": ["Electrical Engineering", "AutoCAD", "QiBuilder", "BIM"]
+      },
+      {
+        "timePeriod": {
           "start": "Nov 2017",
-          "end": "Present"
+          "end": "May 2024"
         },
         "show": "true",
         "employer": "Indra/Construtora Energia",
@@ -245,21 +281,9 @@
       {
         "timePeriod": {
           "start": "Jun 2017",
-          "end": "Jun 2023"
-        },
-        "show": "true",
-        "employer": "Freelancer",
-        "lastRole": "Electrical Installations Designer",
-        "location": "Goiânia, GO",
-        "roleDescription": "Preparation of electrical installations projects for low voltage, structured cabling projects, and telephone projects for residential, industrial, and hospital environments.",
-        "skills": ["Electrical Engineering", "AutoCAD", "QiBuilder", "BIM"]
-      },
-      {
-        "timePeriod": {
-          "start": "Jun 2017",
           "end": "Jan 2018"
         },
-        "show": "true",
+        "show": "false",
         "employer": "Municipal Government of Goiânia",
         "lastRole": "Administrative Assistant",
         "location": "Goiânia, GO",
@@ -295,10 +319,10 @@
       {
         "timePeriod": {
           "start": "Apr 2023",
-          "end": "Apr 2024"
+          "end": "May 2024"
         },
         "show": "true",
-        "institution": "Descomplica Faculdade Digital",
+        "institution": "UniAmérica",
         "courseTitle": "Postgraduate in Software Engineering",
         "description": "Specialization course focusing on software development, software engineering, agile methodologies, project management, software quality, data modeling, cloud, DevOps, information security, among others.",
         "skills": ["Java", "UX/UI", "Cloud", "Data Structures"]

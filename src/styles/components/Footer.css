@@ -1,7 +1,7 @@
 footer {
   background-color: var(--color-primary);
-  min-height: 12rem;
-  padding: 2rem 8rem;
+  min-height: 8rem;
+  padding: 1.6rem 8rem;
   color: var(--color-font-secondary);
   bottom: 0;
   left: 0;
@@ -13,7 +13,7 @@ footer {
   width: 100%;
   justify-content: center;
   gap: 0.4rem;
-  padding: 1rem;
+  padding: 0.1rem;
 }
 
 .logo-footer-container {
@@ -79,11 +79,11 @@ footer {
 
 @media only screen and (max-width: 768px) {
   footer {
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
   }
 
   .logo-section-footer {
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
   }
 
