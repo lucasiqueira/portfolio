@@ -139,10 +139,10 @@
       {
         "timePeriod": {
           "start": "abr 2023",
-          "end": "abr 2024"
+          "end": "mai 2024"
         },
         "show": "true",
-        "institution": "Descomplica Faculdade Digital",
+        "institution": "UniAmérica",
         "courseTitle": "Pós-graduação em Engenharia de Software",
         "description": "Curso de especialização com foco em desenvolvimento de software, engenharia de software, metodologias ágeis, gestão de projetos, qualidade de software, modelagem de dados, cloud, DevOps, segurança da informação, entre outros.",
         "skills": ["Java", "UX/UI", "Cloud", "Estrutura de Dados"]
@@ -257,7 +257,7 @@
       {
         "timePeriod": {
           "start": "Jun 2017",
-          "end": "present"
+          "end": "Jun 2023"
         },
         "show": "true",
         "employer": "Freelancer",
@@ -319,10 +319,10 @@
       {
         "timePeriod": {
           "start": "Apr 2023",
-          "end": "Apr 2024"
+          "end": "May 2024"
         },
         "show": "true",
-        "institution": "Descomplica Faculdade Digital",
+        "institution": "UniAmérica",
         "courseTitle": "Postgraduate in Software Engineering",
         "description": "Specialization course focusing on software development, software engineering, agile methodologies, project management, software quality, data modeling, cloud, DevOps, information security, among others.",
         "skills": ["Java", "UX/UI", "Cloud", "Data Structures"]
