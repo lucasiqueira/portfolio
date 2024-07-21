@@ -55,3 +55,7 @@ Lucas Siqueira
 - Atualização de dados de experiências profissionais.
 - Atualização de informações de formação acadêmica.
 ```
+- 1.0.2
+```
+- Adição de novos projetos realizados.
+```
