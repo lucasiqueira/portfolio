@@ -13,6 +13,10 @@ import mysql from '../assets/images/stacks/mysql.svg';
 import mongo from '../assets/images/stacks/mongo.svg';
 import linux from '../assets/images/stacks/linux.svg';
 import express from '../assets/images/stacks/express.svg';
+import redux from '../assets/images/stacks/redux.svg';
+import maven from '../assets/images/stacks/maven.svg';
+import docker from '../assets/images/stacks/docker.svg';
+import sequelize from '../assets/images/stacks/sequelize.svg';
 
 export const stackImages = {
   React: react,
@@ -30,4 +34,8 @@ export const stackImages = {
   MongoDB: mongo,
   Linux: linux,
   Express: express,
+  Redux: redux,
+  Maven: maven,
+  Docker: docker,
+  Sequelize: sequelize
 };
