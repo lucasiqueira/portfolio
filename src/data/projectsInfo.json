@@ -8,13 +8,87 @@
     },
     "projects": [
       {
+        "alias": "portfolio",
         "title": "Meu Portfólio",
         "description": "Este site que você está vendo agora, para demonstração de meus conhecimentos e habilidades.",
-        "github": "https://github.com/lucasiqueira/lucasiqueira.github.io",
+        "github": "https://github.com/lucasiqueira/portfolio",
         "link": "https://lucasiqueira-portfolio.vercel.app/",
         "stacks": [
           "React",
           "TypeScript",
+          "CSS",
+          "HTML",
+          "Git"
+        ]
+      },
+      {
+        "alias": "agrix",
+        "title": "Trybe - Agrix",
+        "description": "Sistema de gerenciamento de insumos agrícolas.",
+        "github": "https://github.com/lucasiqueira/trybe-agrix-project",
+        "link": "https://trybe-agrix-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "Java",
+          "Spring",
+          "Maven",
+          "Docker",
+          "MySQL",
+          "Git"
+        ]
+      },
+      {
+        "alias": "tfc",
+        "title": "Trybe Futebol Clube",
+        "description": "Site que exibe informações sobre os times do Campeonato Brasileiro de Futebol.",
+        "github": "https://github.com/lucasiqueira/trybe-futebol-clube-project",
+        "link": "https://trybe-futebol-clube-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "NodeJS",
+          "TypeScript",
+          "Express",
+          "Sequelize",
+          "Docker",
+          "MySQL"
+        ]
+      },
+      {
+        "alias": "trybewallet",
+        "title": "TrybeWallet",
+        "description": "Aplicação de controle de gastos, onde é possível adicionar, remover e editar despesas.",
+        "github": "https://github.com/lucasiqueira/trybe-trybewallet-project",
+        "link": "https://trybe-trybewallet-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "React",
+          "Redux",
+          "JavaScript",
+          "CSS",
+          "HTML",
+          "Git"
+        ]
+      },
+      {
+        "alias": "trybetunes",
+        "title": "TrybeTunes",
+        "description": "Site que consome a API do iTunes, onde é possível buscar por artistas, álbuns e músicas.",
+        "github": "https://github.com/lucasiqueira/trybe-trybetunes-project",
+        "link": "https://trybetunes-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML",
+          "Git"
+        ]
+      },
+      {
+        "alias": "solarsystem",
+        "title": "Trybe Solar System",
+        "description": "Site que exibe informações sobre os planetas do sistema solar e missões espaciais.",
+        "github": "https://github.com/lucasiqueira/trybe-solar-system-project",
+        "link": "https://trybe-solar-system-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "React",
+          "JavaScript",
           "CSS",
           "HTML",
           "Git"
@@ -31,13 +105,87 @@
     },
     "projects": [
       {
+        "alias": "portfolio",
         "title": "My Portfolio",
         "description": "This website you're seeing right now, to demonstrate my knowledge and skills.",
-        "github": "https://github.com/lucasiqueira/lucasiqueira.github.io",
+        "github": "https://github.com/lucasiqueira/portfolio",
         "link": "https://lucasiqueira.github.io/",
         "stacks": [
           "React",
           "TypeScript",
+          "CSS",
+          "HTML",
+          "Git"
+        ]
+      },
+      {
+        "alias": "agrix",
+        "title": "Trybe's Agrix",
+        "description": "Agricultural inputs management system.",
+        "github": "https://github.com/lucasiqueira/trybe-agrix-project",
+        "link": "https://trybe-agrix-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "Java",
+          "Spring",
+          "Maven",
+          "Docker",
+          "MySQL",
+          "Git"
+        ]
+      },
+      {
+        "alias": "tfc",
+        "title": "Trybe Soccer Club",
+        "description": "Website that displays information about the Brazilian Premiere Soccer League teams.",
+        "github": "https://github.com/lucasiqueira/trybe-futebol-clube-project",
+        "link": "https://trybe-futebol-clube-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "NodeJS",
+          "TypeScript",
+          "Express",
+          "Sequelize",
+          "Docker",
+          "MySQL"
+        ]
+      },
+      {
+        "alias": "trybewallet",
+        "title": "TrybeWallet",
+        "description": "Expense control application, where you can add, remove and edit expenses.",
+        "github": "https://github.com/lucasiqueira/trybe-trybewallet-project",
+        "link": "https://trybe-trybewallet-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "React",
+          "Redux",
+          "JavaScript",
+          "CSS",
+          "HTML",
+          "Git"
+        ]
+      },
+      {
+        "alias": "trybetunes",
+        "title": "TrybeTunes",
+        "description": "Website that consumes the iTunes API, where you can search for artists, albums and songs.",
+        "github": "https://github.com/lucasiqueira/trybe-trybetunes-project",
+        "link": "https://trybetunes-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML",
+          "Git"
+        ]
+      },
+      {
+        "alias": "solarsystem",
+        "title": "Trybe's Solar System",
+        "description": "Website that displays information about the planets of the solar system and space missions.",
+        "github": "https://github.com/lucasiqueira/trybe-solar-system-project",
+        "link": "https://trybe-solar-system-project-lucasiqueiras-projects.vercel.app/",
+        "stacks": [
+          "React",
+          "JavaScript",
           "CSS",
           "HTML",
           "Git"

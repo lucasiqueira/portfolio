@@ -16,7 +16,6 @@
 .project-image {
   width: 100%;
   height: 10rem;
-  object-fit: cover;
   border-radius: 0.5rem;
 }
 
@@ -111,6 +110,11 @@
   .project-container {
     height: auto;
     width: 90%;
+    max-width: 320px;
+  }
+
+  .project-image {
+    object-fit: cover;
   }
 
   .project-description {

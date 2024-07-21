@@ -24,7 +24,7 @@ const ProjectCard: React.FC<{project: ProjectType}> = ({project}) => {
   return (
     <div className="project-container">
       <a href={ project.link } target="_blank">
-        <img src={projectImages.Portfolio} alt={project.title} className="project-image" />
+        <img src={projectImages[project.alias]} alt={project.title} className="project-image" />
       </a>
       <div className="project-title">{project.title}</div>
       <div className="project-description">
